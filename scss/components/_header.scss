@@ -1,0 +1,9 @@
+@import '../base/tipografias.scss';
+@import '../base/colores';
+
+/*Header*/
+.tipografia-navbar {
+    font-family: $tipografia-principal !important;
+    color: $color-secundario;
+}
+/*Fin Header*/

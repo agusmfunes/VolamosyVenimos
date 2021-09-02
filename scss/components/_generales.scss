@@ -1,0 +1,42 @@
+@import '..//base/colores';
+@import '../base/tipografias.scss';
+
+/*Generales*/
+
+*{
+    cursor: url("https://img.icons8.com/fluency/48/000000/paper-plane.png") 15 15, auto;
+}
+
+/*Titulo VYV*/
+.vyv {
+    font-size: 120px !important;
+    color: $color-vyv !important;
+    font-family: $tipografia-principal !important;
+    margin-top: 100px !important;
+}
+/*Fin Titulo VYV*/
+
+/*Subtitulo*/
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    color: $color-secundario;
+    font-family: $tipografia-principal;
+    margin-bottom: 80px;
+}
+/*Fin subitulo*/
+
+
+/*Body*/
+body {
+    font-family: $tipografia-principal;
+    font-family: $tipografia-secundaria;
+}
+
+audio {
+    padding: 15px;
+}
+/*Fin Body*/
+
+
+/*Fin Generales*/

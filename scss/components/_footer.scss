@@ -1,0 +1,55 @@
+@import '..//base/colores';
+@import '../base/tipografias.scss';
+
+/*Footer*/
+footer {
+    margin-top: 100px;
+    font-family: $tipografia-principal;
+}
+
+.logo-red-social {
+    width: 10%; /*chequear esto porque es un tamanio fijo, buscar alguna opcion absoluta y no relativa. capaz con el espacio completo del grid? Tambien falta pasar la animacion desde el footer viejo*/
+}
+
+.arriba:hover {
+    animation: Bounce 3s;
+}
+
+@keyframes Bounce {
+    
+    10% {
+        transform: translateY(4px);
+    }
+    10% {
+        transform: translateY(-8px);
+    }
+    20% {
+        transform: translateY(8px);
+    }
+    30% {
+        transform: translateY(-8px);
+    }
+    40% {
+        transform: translateY(8px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    60% {
+        transform: translateY(8px);
+    }
+    70% {
+        transform: translateY(-8px);
+    }
+    80% {
+        transform: translateY(8px);
+    }
+    90% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(4px);
+    }
+}
+
+/*Fin Footer*/
