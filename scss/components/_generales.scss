@@ -15,16 +15,23 @@
     margin-top: 100px !important;
 }
 
-/*
 @media (max-width: 600px) {
     .vyv {
-        font-size: 50px !important;
+        font-size: 75px !important;
         color: $color-vyv !important;
         font-family: $tipografia-principal !important;
         margin-top: 100px !important;
     }
   }
-  */
+
+  @media (max-width: 350px) {
+    .vyv {
+        font-size: 55px !important;
+        color: $color-vyv !important;
+        font-family: $tipografia-principal !important;
+        margin-top: 100px !important;
+    }
+  }
 /*Fin Titulo VYV*/
 
 /*Subtitulo*/

@@ -165,6 +165,22 @@ footer {
   margin-top: 100px !important;
 }
 
+@media (max-width: 600px) {
+  .vyv {
+    font-size: 75px !important;
+    color: #204ac8 !important;
+    font-family: "Bree Serif", serif !important;
+    margin-top: 100px !important;
+  }
+}
+@media (max-width: 350px) {
+  .vyv {
+    font-size: 55px !important;
+    color: #204ac8 !important;
+    font-family: "Bree Serif", serif !important;
+    margin-top: 100px !important;
+  }
+}
 /*Fin Titulo VYV*/
 /*Subtitulo*/
 .subtitulo {
