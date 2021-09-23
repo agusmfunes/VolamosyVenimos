@@ -14,12 +14,19 @@
 }
 
 .photo-title {
+    font-family: $tipografia-principal;
     font-size: 25px;
     font-weight: bold;
 }
 
 .photo:hover {
     opacity: 0.80;
+}
+
+.estilo-card {
+    background-color: lightgrey;
+    border-radius: 10px;
+    border-style: none !important;
 }
 
 /*FIN POSTS*/

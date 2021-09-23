@@ -84,12 +84,19 @@ footer {
 }
 
 .photo-title {
+  font-family: "Bree Serif", serif;
   font-size: 25px;
   font-weight: bold;
 }
 
 .photo:hover {
   opacity: 0.8;
+}
+
+.estilo-card {
+  background-color: lightgrey;
+  border-radius: 10px;
+  border-style: none !important;
 }
 
 /*FIN POSTS*/
@@ -203,6 +210,17 @@ audio {
 }
 
 /*Fin Body*/
+/*Cuadros de audio*/
+.cuadro-de-audio {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.titulo-audio {
+  font-family: "Bree Serif", serif !important;
+}
+
+/*Fin Cuadros de audio*/
 /*Fin Generales*/
 
 /*# sourceMappingURL=style.css.map */
