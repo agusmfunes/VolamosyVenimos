@@ -139,6 +139,13 @@ footer {
   text-align: justify;
 }
 
+/*Mobile foto y texto nosotros*/
+@media (max-width: 500px) {
+  .div-nosotros-foto, .div-nosotros-texto {
+    display: inline !important;
+  }
+}
+/*Fin Mobile foto y texto nosotros*/
 /*FIN NOSOTROS*/
 /*CONTACTO*/
 .titulo-contacto {
